@@ -1,7 +1,7 @@
 cask "claudewatch" do
   # Version and sha256 are updated automatically by the release workflow.
-  version "1.1.1"
-  sha256 "78f098aa87d8156576be2ece5bb75a5a5635cf673ed11183556ab62121299f39"
+  version "1.1.4"
+  sha256 "83049e55e8519da5a5cf11138a3eaceaa835b55be7374ab41fc5b9f0fa10436b"
 
   url "https://github.com/maydali28/claudewatch/releases/download/v#{version}/ClaudeWatch-#{version}-arm64.dmg"
   name "ClaudeWatch"
@@ -9,7 +9,7 @@ cask "claudewatch" do
   homepage "https://github.com/maydali28/claudewatch"
   auto_updates true
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ClaudeWatch.app"
 
