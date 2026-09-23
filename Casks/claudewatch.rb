@@ -1,7 +1,7 @@
 cask "claudewatch" do
   # Version and sha256 are updated automatically by the release workflow.
-  version "1.5.4"
-  sha256 "50c8b0180e9253767735d623513b0ee37cbd279febc0fdbf7b6b802a1b938833"
+  version "1.5.5"
+  sha256 "c3eeed77a894064d467c6c6907ae652546d142d10da27c867ee8be5da6a5da19"
 
   url "https://github.com/maydali28/claudewatch/releases/download/v#{version}/ClaudeWatch-#{version}-arm64.dmg"
   name "ClaudeWatch"
